@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="imagens/sch.ico">
+    <link rel="stylesheet" href="src/pag_consultas.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONSULTAS</title>
+    <script type="module" src="/src/pag_consultas.jsx"></script>
+  </head>
+  <body>
+    <header>
+      <div class="cabecalho">
+        <button class="botao_menu" onClick={mostrar_opcoes_menu}><img class ="img_botao_menu" src="imagens/icone_menu.png" alt="bota para exibir as opcoes de navegacao"></button>
+        <img class = "img_logo_sch" src="imagens/sch.png" alt="imagem do logo do SCH - superintêndencia do complexo hospitalar de pernambuco">
+        <div class="opcoes_do_menu">
+          <p>
+            <ul><a href="pagina-consultas.html">EXAMES</a></ul>
+            <ul><a href="">POR ENQUANTO ESTÁ SEM LINK</a></ul>
+          </p>
+        </div>
+      </div>
+    </header>
+    <div class="informacoes">
+      <p><strong>HOSPITAL: </strong><span class="hospital_exame"></span></p>
+      <p><strong>DATA DE REALIZAÇÃO: </strong><span class="data_real_exame"></span></p>
+      <p><strong>DATA LIBERAÇÃO: </strong><span class="data_lib_exame"></span></p>
+      <p><strong>STATUS: </strong><span class="status_exame"></span></p>
+      <p><strong>ARQUIVOS: </strong><span class="arquivos_exames"></span></p>
+    </div>
+    <div class="tabela">
+      <table>
+        <thead>
+          <tr><th colspan="2">NOME DO EXAME</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>exame 1</td>
+            <td><a href="imagens/IMAGEM_TESTE(APAGAR_DEPOIS).webp" download="IMAGEM_TESTE(APAGAR_DEPOIS).wepb">resultado 1</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
