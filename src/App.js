@@ -6,8 +6,8 @@ import { useState } from 'react';
 function App() {
   return(
     <>
-      <Botao/>
       <Cabecalho/>
+      <Informacoes/>
       <Tabela_exame/>
     </>
   );
